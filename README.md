@@ -1,5 +1,5 @@
 # HW1
--Each folder contains the files or documents that answer the given HW 1 question
+-Each folder holds the location for where to answer the given question
 1. Problem 1 assigned to:
 2. Problem 2 assigned to:
 3. Problem 3 assigned to:
