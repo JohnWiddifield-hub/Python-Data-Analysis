@@ -1,0 +1,34 @@
+Question 4
+  a. 
+    i.  
+      Precision is often measured by the standard deviation of a set of values.
+    ii. 
+      Bias can only be truly determined when a measured quantity is made known by a means which is external 
+      from the current situation.  If you were to use internal measures they would have the bias applied and would not
+      determine anything
+    iii.
+      I think of accuracy and precision as different if you imagine a target with a bullseye.  Precise shots
+      are repeatedly hitting very close to eachother but not necessarily on the bullseye.  Accurate shots are close to
+      the bullseye but not necessarily close to eachother.
+    iv.
+      The first way you can handle mising data is simply by eliminating either the object with the missing data or
+      the entire attribute with missing data from all objects.  With this technique you lose information, information 
+      which may be vital to the analysis of the data making your analysis unreliable.  This happens often when there
+      is much data missing.
+  b.
+    i.  
+      Advantages for data aggregation include smaller data sets which reduces memory consumption and processing time.  
+      This advantage can be very helpful when needing to use an expensive data mining algorithm.  Other advantages are 
+      that you can get a higher scoped view of the data and that the data is typically more stable than non-aggregated data.
+    ii.
+      If the sample has about the same properties as the original set of data then the sample will work almost as well
+      as the original data set.
+    iii.
+      Adaptive/progressive sampling is a technique to effectively sample.  These techniques start with a small sample size
+      and then incrementally increase the sample size until the sample is sufficient.
+    iv. 
+      The curse of dimensionality is when the more attributes/dimensions that the data to be analyzed contains the more difficult
+      it is to pull meaningful data out of the set.  For example if your data set is a glass of water and in that glass of water you
+      dissolve some sugar, when you add more water to the glass the more difficult it will be to tell that the water has sugar in it.
+    v.
+      Having knowledge of the domain for which you are developing and extracting features as they are typically highly domain specific.
