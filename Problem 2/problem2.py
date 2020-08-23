@@ -100,9 +100,9 @@ if __name__ == "__main__":
 
     # j.)Given the equation: mean(x^2) = (mean(x)^2+σ^2(x)) where x = [19, 12, 16, 6, 11, 27, 1, 29]^T. Please determine whether the equation holds when:
     #   i. σ(x) is the population standard deviation. Show your work.
-    #   ii. σ(x) is the sample standard deviation. Show your work.
     print(
-        "\nj.Given the equation: mean(x^2) = (mean(x)^2+std^2(x)) x = [19, 12, 16, 6, 11, 27, 1, 29]^T. Please determine whether the equation holds when:"
+        "\nj.Given the equation: mean(x^2) = (mean(x)^2+std^2(x)) x = [19, 12, 16, 6, 11, 27, 1, 29]^T."
+        + "Please determine whether the equation holds when:"
     )
     print("i. std(x) is the population standard deviation. Show your work.")
     x = numpy.array([19, 12, 16, 6, 11, 27, 1, 29])
@@ -125,6 +125,7 @@ if __name__ == "__main__":
     print(str(xSquareMean) + " = " + str(popVal))
     print("-The above equation holds for the population standard deviation")
 
+    #   ii. σ(x) is the sample standard deviation. Show your work.
     print("\nii. std(x) is the sample standard deviation. Show your work.")
     print("mean(x^2): " + str(xSquareMean))
     print("mean(x)^2: " + str(xMeanSquare))
