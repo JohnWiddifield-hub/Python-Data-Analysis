@@ -41,9 +41,9 @@ Question 7:
         
   d.  
     i. See the included PNG files for the plots.
-    ii. all sets of points are teh same accross distance measures with the exception of the cosine distance scatterplot.
-        this plot is wildly different from the pattern.  I believe that this is due to the cosine distance being based on
-        angular distance while the others don't take this into account as greatly
+    ii. All sets of points are the same accross distance measures with the exception of the cosine distance scatterplot.
+        This plot is wildly different from the pattern.  I believe that this is due to the cosine distance being based on
+        angular distance while the others don't take this into account as greatly.
     
     **CONSOLE OUTPUT**
 Data point P = (21.885974358974366, 0.024847076923076923)
