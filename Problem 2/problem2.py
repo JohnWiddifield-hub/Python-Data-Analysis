@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # f.)Generate a 10×10 matrix B following Gaussian Distribution with mean 12 and variance π.
     print(
         "\n"
-        + "f.) Generate a 10×10 matrix B following Gaussian Distribution with mean 12 and variance π."
+        + "f.) Generate a 10×10 matrix B following Gaussian Distribution with mean 12 and variance pi."
     )
     matrixB = numpy.random.normal(12, numpy.pi, size=(10, 10))
     print(matrixB)
@@ -102,9 +102,9 @@ if __name__ == "__main__":
     #   i. σ(x) is the population standard deviation. Show your work.
     #   ii. σ(x) is the sample standard deviation. Show your work.
     print(
-        "\nj.Given the equation: mean(x^2) = (mean(x)^2+σ^2(x)) x = [19, 12, 16, 6, 11, 27, 1, 29]^T. Please determine whether the equation holds when:"
+        "\nj.Given the equation: mean(x^2) = (mean(x)^2+std^2(x)) x = [19, 12, 16, 6, 11, 27, 1, 29]^T. Please determine whether the equation holds when:"
     )
-    print("i. σ(x) is the population standard deviation. Show your work.")
+    print("i. std(x) is the population standard deviation. Show your work.")
     x = numpy.array([19, 12, 16, 6, 11, 27, 1, 29])
     # gives x^2
     xSquare = numpy.multiply(x, x)
@@ -117,22 +117,22 @@ if __name__ == "__main__":
     # gives population standard deviation
     populationStd = numpy.std(x) ** 2
     print("Population Standard Deviation: " + str(populationStd))
-    print("\nmean(x^2) = (mean(x)^2+populationσ^2(x))")
+    print("\nmean(x^2) = (mean(x)^2+populationStd^2(x))")
     print(
         str(xSquareMean) + " = (" + str(xMeanSquare) + " + " + str(populationStd) + ")"
     )
     popVal = xMeanSquare + populationStd
     print(str(xSquareMean) + " = " + str(popVal))
-    print("The above equation holds for the population standard deviation")
+    print("-The above equation holds for the population standard deviation")
 
-    print("\nii. σ(x) is the sample standard deviation. Show your work.")
+    print("\nii. std(x) is the sample standard deviation. Show your work.")
     print("mean(x^2): " + str(xSquareMean))
     print("mean(x)^2: " + str(xMeanSquare))
     # gives the sample standard deviation
     sampleStd = numpy.std(x, ddof=1) ** 2
     print("Sample Standard Deviation: " + str(sampleStd))
-    print("\nmean(x^2) = (mean(x)^2+sampleσ^2(x))")
+    print("\nmean(x^2) = (mean(x)^2+sampleStd^2(x))")
     sampleVal = xMeanSquare + sampleStd
     print(str(xSquareMean) + " = " + str(sampleVal))
-    print("The above equation doesn't hold for the sample standard deviation")
+    print("-The above equation doesn't hold for the sample standard deviation")
 
