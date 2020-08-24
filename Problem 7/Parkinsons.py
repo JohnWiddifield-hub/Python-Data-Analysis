@@ -153,4 +153,3 @@ for point in range(0, 10):
     y.append(np.round(dataArr[cosineMins[point]][1], 5))
 plt.scatter(x, y, s=5, c='orange')
 plt.show()
-print(dataArr[0])
